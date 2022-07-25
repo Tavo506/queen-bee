@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1658781459026,
+  "timestamp": 1658784544648,
   "index": "/spelling-bee/index.html",
   "assetGroups": [
     {
@@ -30,6 +30,7 @@
       },
       "urls": [
         "/spelling-bee/assets/data.ts",
+        "/spelling-bee/assets/icons/Queen bee.svg",
         "/spelling-bee/assets/icons/icon-128x128.png",
         "/spelling-bee/assets/icons/icon-144x144.png",
         "/spelling-bee/assets/icons/icon-152x152.png",
@@ -45,14 +46,15 @@
   "dataGroups": [],
   "hashTable": {
     "/spelling-bee/assets/data.ts": "c78a0dcfaa4823cd3352ce79faed4526b7675d75",
-    "/spelling-bee/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "/spelling-bee/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "/spelling-bee/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "/spelling-bee/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "/spelling-bee/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "/spelling-bee/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "/spelling-bee/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "/spelling-bee/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/spelling-bee/assets/icons/Queen bee.svg": "916612587c198056a0c6afc0d5665a1ebf6a9711",
+    "/spelling-bee/assets/icons/icon-128x128.png": "0d1092122de0bd1a77068cbc9f420c40046f3b49",
+    "/spelling-bee/assets/icons/icon-144x144.png": "87e53bc28231a10a5fcc7a3e55663411d292033b",
+    "/spelling-bee/assets/icons/icon-152x152.png": "11db6b0391664cc4d80946164a06110b4bed3693",
+    "/spelling-bee/assets/icons/icon-192x192.png": "c76a6c7bffdfdc69a0afba44f8ba8d0790b5cc60",
+    "/spelling-bee/assets/icons/icon-384x384.png": "37a07fbc646ac5e7de4bf3c0b919834ee231d0dc",
+    "/spelling-bee/assets/icons/icon-512x512.png": "1df2dbc54d0bb60e6ade10b887de9197c87c6dae",
+    "/spelling-bee/assets/icons/icon-72x72.png": "b3548be4eb9b5bb152be2b78ab9ee6a30bd7a894",
+    "/spelling-bee/assets/icons/icon-96x96.png": "f2625da94f7ac32254bc2ff6719e8c224b6c88f7",
     "/spelling-bee/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
     "/spelling-bee/index.html": "178db01bc9c25004f2bd06f16bf6782ced4255c8",
     "/spelling-bee/main.2f70e6c71d0585db.js": "91c4b551b75df525ee0a3a9a762faae72f45e291",
