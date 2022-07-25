@@ -10,6 +10,7 @@ export class HomeComponent implements OnInit {
 
   lowerLevel: number = 1;
   higherLevel: number = 15;
+  order: number = 1;
 
   constructor(private router: Router) { }
 
@@ -21,7 +22,7 @@ export class HomeComponent implements OnInit {
       alert('Lower level can\'t be higher than higher level');
       return;
     }
-    this.router.navigate(['study', {lowerLevel: this.lowerLevel, higherLevel: this.higherLevel}])
+    this.router.navigate(['study', {lowerLevel: this.lowerLevel, higherLevel: this.higherLevel, order: this.order}])
   }
 
 }

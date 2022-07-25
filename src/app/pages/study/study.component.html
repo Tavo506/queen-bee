@@ -1,16 +1,66 @@
 <div class="container">
 
-    <a href="/home" class="btn btn-dark">Go back</a>
+    <a [routerLink]="['/home']" class="btn btn-dark">Go back</a>
 
-    <div class="mt-4 text">
-        <p><b>Level</b>: {{currentWord.Level}}</p>
-        <p><b>Word</b>: {{currentWord.Word}}</p>
-        <p><b>Spanish Translation</b>: {{currentWord.Spanish_Translation}}</p>
-        <p><b>Definition</b>: {{currentWord.Definition}}</p>
-        <p><b>Example Sentence</b>: {{currentWord.Example_Sentence}}</p>
+    <div class="show-options d-flex align-items-center">
+        <label for="defaultHide">Show content</label>
+        <button *ngIf="!showLabels" class="btn btn-danger" (click)="triggerShowLabels()">No</button>
+        <button *ngIf="showLabels" class="btn btn-success" (click)="triggerShowLabels()">Yes</button>
     </div>
 
-    <button class="btn btn-primary"(click)="nextWord()">Next word</button>
-    <button class="btn btn-secondary mx-1"(click)="say()">Say again</button>
+    <div class="mt-4 text">
+        <div>
+            <b>Level: </b>
+            <span>{{currentWord.Level}}</span>
+        </div>
+        
+        <div>
+            <b>Word: </b>
+            <button class="eye-button" *ngIf="!showWord" (click)="showWord = true"><i class="fa-solid fa-eye"></i></button>
+            <span *ngIf="showWord">{{currentWord.Word}}</span>
+        </div>
+        
+        <div>
+            <b>Spanish Translation: </b>
+            <button class="eye-button" *ngIf="!showTranslation" (click)="showTranslation = true"><i class="fa-solid fa-eye"></i></button>
+            <span *ngIf="showTranslation">{{currentWord.Spanish_Translation}}</span>
+        </div>
+        
+        <div>
+            <b>Definition: </b>
+            <button class="eye-button" *ngIf="!showDefinition" (click)="showDefinition = true"><i class="fa-solid fa-eye"></i></button>
+            <span *ngIf="showDefinition">{{currentWord.Definition}}</span>
+        </div>
+        
+        <div>
+            <b>Example Sentence: </b>
+            <button class="eye-button" *ngIf="!showExample" (click)="showExample = true"><i class="fa-solid fa-eye"></i></button>
+            <span *ngIf="showExample">{{currentWord.Example_Sentence}}</span>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-6 col-md-4 col-lg-3 my-1">
+            <button class="btn btn-success"(click)="nextWord()">Next word</button>
+        </div>
+        
+        <div class="col-6 col-md-4 col-lg-3 my-1">
+            <button class="btn btn-primary"(click)="sayWord()">Say again</button>
+        </div>
+        
+        <div class="col-12 col-md-4 col-lg-3 my-1">
+            <button class="btn btn-primary"(click)="saySlow()">Say again slowly</button>
+        </div>
+        
+        <div class="col-6 col-sm-6 col-md-4 col-lg-3 my-1">
+            <button class="btn btn-secondary"(click)="sayDef()">Say definition</button>
+        </div>
+        
+        <div class="col-6 col-md-4 col-lg-3 my-1">
+            <button class="btn btn-secondary"(click)="sayExample()">Say example</button>
+        </div>
+    </div>
 
 </div>

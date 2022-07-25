@@ -1,8 +1,23 @@
-.text{
+.text {
     font-size: 24px;
 }
 
-.btn{
+.btn {
     font-size: 20px;
     font-weight: bold;
+}
+
+.eye-button {
+    border: none;
+    background: none;
+}
+
+.show-options label{
+    font-size: 26px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.show-options button{
+    width: 70px;
 }

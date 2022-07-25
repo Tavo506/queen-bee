@@ -6,22 +6,38 @@
             <div class="form-group row">
                 <label for="lowerLevel" class="col-8 col-form-label">Lower level</label>
                 <div class="col-4">
-                    <input type="number" class="form-control" id="lowerLevel" [(ngModel)]="lowerLevel" min="1" max="15">
+                    <input type="number" class="form-control text-input" id="lowerLevel" [(ngModel)]="lowerLevel" min="1" max="15">
                 </div>
             </div>
         </div>
-        
+
         <div class="col-12 col-sm-6 my-1 text-center">
             <div class="form-group row">
                 <label for="higherLevel" class="col-8 col-form-label">Higher level</label>
                 <div class="col-4">
-                    <input type="number" class="form-control" id="higherLevel" [(ngModel)]="higherLevel" min="1" max="15">
+                    <input type="number" class="form-control text-input" id="higherLevel" [(ngModel)]="higherLevel" min="1"
+                        max="15">
                 </div>
             </div>
         </div>
 
     </div>
-    
+
+    <div class="text-center mt-5">
+
+        <h2 class="mb-4">Order</h2>
+
+        <div class="form-check form-check-inline me-5">
+            <input class="form-check-input radio-input" type="radio" name="inlineRadioOptions" id="sequentialRadio" [checked]="true" [value]="1" [(ngModel)]="order">
+            <label class="form-check-label" for="sequentialRadio">Sequential</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input radio-input" type="radio" name="inlineRadioOptions" id="randomRadio" [value]="2" [(ngModel)]="order">
+            <label class="form-check-label" for="randomRadio">Random</label>
+        </div>
+
+    </div>
+
     <div class="text-center mt-5">
         <button class="btn btn-secondary" (click)="start()">Start</button>
     </div>

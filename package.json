@@ -6,7 +6,10 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "start-pwa": "ng build && http-server -p 8080 -c-1 dist/spelling-bee",
+    "predeploy": "ng build --base-href=/spelling-bee/",
+    "deploy": "npx gh-pages -d dist/spelling-bee"
   },
   "private": true,
   "dependencies": {
@@ -30,6 +33,7 @@
     "@angular/compiler-cli": "~13.2.0",
     "@types/jasmine": "~3.10.0",
     "@types/node": "^12.11.1",
+    "gh-pages": "^4.0.0",
     "jasmine-core": "~4.0.0",
     "karma": "~6.3.0",
     "karma-chrome-launcher": "~3.1.0",
