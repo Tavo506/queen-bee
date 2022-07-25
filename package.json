@@ -1,5 +1,5 @@
 {
-  "name": "spelling-bee",
+  "name": "queen-bee",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,9 +7,9 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "start-pwa": "ng build && http-server -p 8080 -c-1 dist/spelling-bee",
-    "predeploy": "ng build --base-href=/spelling-bee/",
-    "deploy": "npx gh-pages -d dist/spelling-bee"
+    "start-pwa": "ng build && http-server -p 8080 -c-1 dist/queen-bee",
+    "predeploy": "ng build --base-href=/queen-bee/",
+    "deploy": "npx gh-pages -d dist/queen-bee"
   },
   "private": true,
   "dependencies": {
