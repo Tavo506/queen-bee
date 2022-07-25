@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1658785643840,
-  "index": "/spelling-bee/index.html",
+  "timestamp": 1658785841490,
+  "index": "/queen-bee/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,13 +11,13 @@
         "ignoreVary": true
       },
       "urls": [
-        "/spelling-bee/favicon.ico",
-        "/spelling-bee/index.html",
-        "/spelling-bee/main.2f70e6c71d0585db.js",
-        "/spelling-bee/manifest.webmanifest",
-        "/spelling-bee/polyfills.11b6dd624122279c.js",
-        "/spelling-bee/runtime.1f329851635cef83.js",
-        "/spelling-bee/styles.8526f8fce5c1456e.css"
+        "/queen-bee/favicon.ico",
+        "/queen-bee/index.html",
+        "/queen-bee/main.b7a344bac4835ecc.js",
+        "/queen-bee/manifest.webmanifest",
+        "/queen-bee/polyfills.04c9193856fcd9dc.js",
+        "/queen-bee/runtime.7fc4aec558f2ae35.js",
+        "/queen-bee/styles.8526f8fce5c1456e.css"
       ],
       "patterns": []
     },
@@ -29,39 +29,39 @@
         "ignoreVary": true
       },
       "urls": [
-        "/spelling-bee/assets/data.ts",
-        "/spelling-bee/assets/icons/Queen bee.svg",
-        "/spelling-bee/assets/icons/icon-128x128.png",
-        "/spelling-bee/assets/icons/icon-144x144.png",
-        "/spelling-bee/assets/icons/icon-152x152.png",
-        "/spelling-bee/assets/icons/icon-192x192.png",
-        "/spelling-bee/assets/icons/icon-384x384.png",
-        "/spelling-bee/assets/icons/icon-512x512.png",
-        "/spelling-bee/assets/icons/icon-72x72.png",
-        "/spelling-bee/assets/icons/icon-96x96.png"
+        "/queen-bee/assets/data.ts",
+        "/queen-bee/assets/icons/Queen bee.svg",
+        "/queen-bee/assets/icons/icon-128x128.png",
+        "/queen-bee/assets/icons/icon-144x144.png",
+        "/queen-bee/assets/icons/icon-152x152.png",
+        "/queen-bee/assets/icons/icon-192x192.png",
+        "/queen-bee/assets/icons/icon-384x384.png",
+        "/queen-bee/assets/icons/icon-512x512.png",
+        "/queen-bee/assets/icons/icon-72x72.png",
+        "/queen-bee/assets/icons/icon-96x96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/spelling-bee/assets/data.ts": "c78a0dcfaa4823cd3352ce79faed4526b7675d75",
-    "/spelling-bee/assets/icons/Queen bee.svg": "916612587c198056a0c6afc0d5665a1ebf6a9711",
-    "/spelling-bee/assets/icons/icon-128x128.png": "0d1092122de0bd1a77068cbc9f420c40046f3b49",
-    "/spelling-bee/assets/icons/icon-144x144.png": "87e53bc28231a10a5fcc7a3e55663411d292033b",
-    "/spelling-bee/assets/icons/icon-152x152.png": "11db6b0391664cc4d80946164a06110b4bed3693",
-    "/spelling-bee/assets/icons/icon-192x192.png": "c76a6c7bffdfdc69a0afba44f8ba8d0790b5cc60",
-    "/spelling-bee/assets/icons/icon-384x384.png": "37a07fbc646ac5e7de4bf3c0b919834ee231d0dc",
-    "/spelling-bee/assets/icons/icon-512x512.png": "1df2dbc54d0bb60e6ade10b887de9197c87c6dae",
-    "/spelling-bee/assets/icons/icon-72x72.png": "b3548be4eb9b5bb152be2b78ab9ee6a30bd7a894",
-    "/spelling-bee/assets/icons/icon-96x96.png": "f2625da94f7ac32254bc2ff6719e8c224b6c88f7",
-    "/spelling-bee/favicon.ico": "f64d98f5a764371fb9ac952d9e5e12d84203b12a",
-    "/spelling-bee/index.html": "178db01bc9c25004f2bd06f16bf6782ced4255c8",
-    "/spelling-bee/main.2f70e6c71d0585db.js": "91c4b551b75df525ee0a3a9a762faae72f45e291",
-    "/spelling-bee/manifest.webmanifest": "12c4f94daae1b3496940749a9e5763e170f27a9f",
-    "/spelling-bee/polyfills.11b6dd624122279c.js": "cc079bd74b83dd0f5d5bbbd99ec24e4b88a294ba",
-    "/spelling-bee/runtime.1f329851635cef83.js": "eb7ddff4f5f54b80e355778e7d883126eceb5ea4",
-    "/spelling-bee/styles.8526f8fce5c1456e.css": "4ad696fc114de757a729a4e78ad45934980f1d78"
+    "/queen-bee/assets/data.ts": "c78a0dcfaa4823cd3352ce79faed4526b7675d75",
+    "/queen-bee/assets/icons/Queen bee.svg": "916612587c198056a0c6afc0d5665a1ebf6a9711",
+    "/queen-bee/assets/icons/icon-128x128.png": "0d1092122de0bd1a77068cbc9f420c40046f3b49",
+    "/queen-bee/assets/icons/icon-144x144.png": "87e53bc28231a10a5fcc7a3e55663411d292033b",
+    "/queen-bee/assets/icons/icon-152x152.png": "11db6b0391664cc4d80946164a06110b4bed3693",
+    "/queen-bee/assets/icons/icon-192x192.png": "c76a6c7bffdfdc69a0afba44f8ba8d0790b5cc60",
+    "/queen-bee/assets/icons/icon-384x384.png": "37a07fbc646ac5e7de4bf3c0b919834ee231d0dc",
+    "/queen-bee/assets/icons/icon-512x512.png": "1df2dbc54d0bb60e6ade10b887de9197c87c6dae",
+    "/queen-bee/assets/icons/icon-72x72.png": "b3548be4eb9b5bb152be2b78ab9ee6a30bd7a894",
+    "/queen-bee/assets/icons/icon-96x96.png": "f2625da94f7ac32254bc2ff6719e8c224b6c88f7",
+    "/queen-bee/favicon.ico": "f64d98f5a764371fb9ac952d9e5e12d84203b12a",
+    "/queen-bee/index.html": "9c73900ae1358dfbbf8c9b6c5da64f654a506dc2",
+    "/queen-bee/main.b7a344bac4835ecc.js": "bfb817ee0e80ab2ef830e93615fe17601e402fe1",
+    "/queen-bee/manifest.webmanifest": "12c4f94daae1b3496940749a9e5763e170f27a9f",
+    "/queen-bee/polyfills.04c9193856fcd9dc.js": "995073ea77054d9651e6ef6374697be54af4d8f6",
+    "/queen-bee/runtime.7fc4aec558f2ae35.js": "272c3aee4569e48e9246ce95e3e8491a1a43f6d8",
+    "/queen-bee/styles.8526f8fce5c1456e.css": "4ad696fc114de757a729a4e78ad45934980f1d78"
   },
   "navigationUrls": [
     {
