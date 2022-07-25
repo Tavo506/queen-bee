@@ -1,0 +1,16 @@
+<div class="container">
+
+    <a href="/home" class="btn btn-dark">Go back</a>
+
+    <div class="mt-4 text">
+        <p><b>Level</b>: {{currentWord.Level}}</p>
+        <p><b>Word</b>: {{currentWord.Word}}</p>
+        <p><b>Spanish Translation</b>: {{currentWord.Spanish_Translation}}</p>
+        <p><b>Definition</b>: {{currentWord.Definition}}</p>
+        <p><b>Example Sentence</b>: {{currentWord.Example_Sentence}}</p>
+    </div>
+
+    <button class="btn btn-primary"(click)="nextWord()">Next word</button>
+    <button class="btn btn-secondary mx-1"(click)="say()">Say again</button>
+
+</div>
