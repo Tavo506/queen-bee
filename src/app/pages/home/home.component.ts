@@ -17,7 +17,15 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  validInputs(lower: Number, higher: Number): boolean {
+    return !(lower > 15 || higher > 15 || lower < 1 || higher < 1);
+  }
+
   start(): void {
+    if (!this.validInputs(this.lowerLevel, this.higherLevel)){
+      alert('Levels must be between 1 and 15');
+      return;
+    }
     if (this.lowerLevel > this.higherLevel) {
       alert('Lower level can\'t be higher than higher level');
       return;

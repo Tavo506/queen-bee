@@ -23,6 +23,8 @@ export class StudyComponent implements OnInit {
 
   showLabels: boolean = false;
 
+  finished: boolean = false;
+
   wordsToStudy!: Word[];
 
   currentWord!: Word;
@@ -33,13 +35,17 @@ export class StudyComponent implements OnInit {
 
 
   @HostListener('document:keypress', ['$event'])
-  handleKeyboardEvent(event: KeyboardEvent) { 
+  handleKeyboardEvent(event: KeyboardEvent) {
+    if (this.finished){
+      return;
+    }
+
     let key = event.key;
-   
-    if (key === 'Enter') {
+
+    if (key === 'n') {
       this.nextWord();
     }
-    else if (key === ' ') { //Space
+    else if (key === 's') {
       this.sayWord();
     }
   }
@@ -75,8 +81,13 @@ export class StudyComponent implements OnInit {
     this.showTranslation = this.showLabels;
     this.showDefinition = this.showLabels;
     this.showExample = this.showLabels;
-    
+
     this.currentWord = this.getNextWord();
+
+    if (this.currentWord == null){
+      this.finished = true;
+      return;
+    }
 
     this.sayWord();
   }
@@ -108,12 +119,18 @@ export class StudyComponent implements OnInit {
   }
 
   private getRandomWord(){
+    if (this.wordsToStudy.length == 0){
+      return null;
+    }
     let item: Word = this.wordsToStudy[Math.floor(Math.random()*this.wordsToStudy.length)];
     this.wordsToStudy = this.wordsToStudy.filter(e => e != item);
     return item;
   }
 
   private getSequentialWord(){
+    if (this.wordsToStudy.length == 0) {
+      return null;
+    }
     let item: Word = this.wordsToStudy[0];
     this.wordsToStudy = this.wordsToStudy.slice(1);
     return item;
