@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1658785841490,
+  "timestamp": 1662005498549,
   "index": "/queen-bee/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/queen-bee/favicon.ico",
         "/queen-bee/index.html",
-        "/queen-bee/main.b7a344bac4835ecc.js",
+        "/queen-bee/main.32f2f53b293d3689.js",
         "/queen-bee/manifest.webmanifest",
         "/queen-bee/polyfills.04c9193856fcd9dc.js",
         "/queen-bee/runtime.7fc4aec558f2ae35.js",
@@ -46,7 +46,7 @@
   "dataGroups": [],
   "hashTable": {
     "/queen-bee/assets/data.ts": "c78a0dcfaa4823cd3352ce79faed4526b7675d75",
-    "/queen-bee/assets/icons/Queen bee.svg": "916612587c198056a0c6afc0d5665a1ebf6a9711",
+    "/queen-bee/assets/icons/Queen bee.svg": "d25b5e5f33bbc7892babd1b6ad80767a28a2bc79",
     "/queen-bee/assets/icons/icon-128x128.png": "0d1092122de0bd1a77068cbc9f420c40046f3b49",
     "/queen-bee/assets/icons/icon-144x144.png": "87e53bc28231a10a5fcc7a3e55663411d292033b",
     "/queen-bee/assets/icons/icon-152x152.png": "11db6b0391664cc4d80946164a06110b4bed3693",
@@ -56,8 +56,8 @@
     "/queen-bee/assets/icons/icon-72x72.png": "b3548be4eb9b5bb152be2b78ab9ee6a30bd7a894",
     "/queen-bee/assets/icons/icon-96x96.png": "f2625da94f7ac32254bc2ff6719e8c224b6c88f7",
     "/queen-bee/favicon.ico": "f64d98f5a764371fb9ac952d9e5e12d84203b12a",
-    "/queen-bee/index.html": "9c73900ae1358dfbbf8c9b6c5da64f654a506dc2",
-    "/queen-bee/main.b7a344bac4835ecc.js": "bfb817ee0e80ab2ef830e93615fe17601e402fe1",
+    "/queen-bee/index.html": "6e27c3a79512b42128169030ff0757a455333451",
+    "/queen-bee/main.32f2f53b293d3689.js": "93328b420a4d6db722ac90d99429ee4c74860802",
     "/queen-bee/manifest.webmanifest": "12c4f94daae1b3496940749a9e5763e170f27a9f",
     "/queen-bee/polyfills.04c9193856fcd9dc.js": "995073ea77054d9651e6ef6374697be54af4d8f6",
     "/queen-bee/runtime.7fc4aec558f2ae35.js": "272c3aee4569e48e9246ce95e3e8491a1a43f6d8",
