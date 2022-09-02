@@ -1,45 +1,98 @@
-<div class="container my-5">
+<body>
+
+  <div class="container my-5">
 
     <div class="row">
 
-        <div class="col-12 col-sm-6 my-1 text-center">
-            <div class="form-group row">
-                <label for="lowerLevel" class="col-8 col-form-label">Lower level</label>
-                <div class="col-4">
-                    <input type="number" class="form-control text-input" id="lowerLevel" [(ngModel)]="lowerLevel" min="1" max="15">
-                </div>
-            </div>
+      <div class="col-12 col-sm-6 my-1 text-center">
+        <div class="form-group row">
+          <label for="lowerLevel" class="col-8 col-form-label">Lower level</label>
+          <div class="col-4">
+            <input type="number" class="form-control text-input" id="lowerLevel" [(ngModel)]="lowerLevel" min="1"
+                   max="15">
+          </div>
         </div>
+      </div>
 
-        <div class="col-12 col-sm-6 my-1 text-center">
-            <div class="form-group row">
-                <label for="higherLevel" class="col-8 col-form-label">Higher level</label>
-                <div class="col-4">
-                    <input type="number" class="form-control text-input" id="higherLevel" [(ngModel)]="higherLevel" min="1"
-                        max="15">
-                </div>
-            </div>
+      <div class="col-12 col-sm-6 my-1 text-center">
+        <div class="form-group row">
+          <label for="higherLevel" class="col-8 col-form-label">Higher level</label>
+          <div class="col-4">
+            <input type="number" class="form-control text-input" id="higherLevel" [(ngModel)]="higherLevel" min="1"
+                   max="15">
+          </div>
         </div>
+      </div>
 
     </div>
 
     <div class="text-center mt-5">
 
-        <h2 class="mb-4">Order</h2>
+      <h2 class="mb-4">Order</h2>
 
-        <div class="form-check form-check-inline me-5">
-            <input class="form-check-input radio-input" type="radio" name="inlineRadioOptions" id="sequentialRadio" [checked]="true" [value]="1" [(ngModel)]="order">
-            <label class="form-check-label" for="sequentialRadio">Sequential</label>
-        </div>
-        <div class="form-check form-check-inline">
-            <input class="form-check-input radio-input" type="radio" name="inlineRadioOptions" id="randomRadio" [value]="2" [(ngModel)]="order">
-            <label class="form-check-label" for="randomRadio">Random</label>
-        </div>
+      <div class="form-check form-check-inline me-5">
+        <input class="form-check-input radio-input" type="radio" name="inlineRadioOptions" id="sequentialRadio"
+               [checked]="true" [value]="1" [(ngModel)]="order">
+        <label class="form-check-label" for="sequentialRadio">Sequential</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input radio-input" type="radio" name="inlineRadioOptions" id="randomRadio" [value]="2"
+               [(ngModel)]="order">
+        <label class="form-check-label" for="randomRadio">Random</label>
+      </div>
 
     </div>
 
     <div class="text-center mt-5">
-        <button class="btn btn-secondary" (click)="start()">Start</button>
+      <button class="btn btn-secondary" (click)="start()">Start</button>
     </div>
 
-</div>
+  </div>
+
+  <footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/GustavoBA506/" role="button"
+        ><i class="fab fa-facebook-f"></i
+        ></a>
+
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="mailto:tavoba2015@gmail.com" role="button"
+        ><i class="fab fa-google"></i
+        ></a>
+
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/gustavo-blanco-alfaro-28a67a171/" role="button"
+        ><i class="fab fa-linkedin-in"></i
+        ></a>
+
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/Tavo506" role="button"
+        ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="align-content-center row" style="background-color: rgba(0, 0, 0, 0.2);">
+      <div class="col-12 col-md-4 contact-info">
+        <span>By Gustavo Blanco Alfaro</span>
+      </div>
+      <div class="col-12 col-md-4 contact-info">
+        <i class="fa-regular fa-envelope"></i>
+        <a href="mailto:tavoba2015@gmail.com">tavoba2015@gmail.com</a>
+      </div>
+      <div class="col-12 col-md-4 contact-info">
+        <i class="fa-solid fa-phone"></i>
+        <a href="tel:+506 8554-8525">+506 8554-8525</a>
+      </div>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+</body>

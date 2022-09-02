@@ -8,12 +8,13 @@ import { environment } from '../environments/environment';
 import { HomeComponent } from './pages/home/home.component';
 import { StudyComponent } from './pages/study/study.component';
 import { FormsModule } from '@angular/forms';
+import {UpdatePwaService} from "./services/update-pwa.service";
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    StudyComponent
+    StudyComponent,
   ],
   imports: [
     BrowserModule,
@@ -26,7 +27,7 @@ import { FormsModule } from '@angular/forms';
       registrationStrategy: 'registerWhenStable:30000'
     })
   ],
-  providers: [],
+  providers: [UpdatePwaService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

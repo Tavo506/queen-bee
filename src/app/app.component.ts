@@ -1,4 +1,5 @@
 import { Component, ViewEncapsulation } from '@angular/core';
+import {UpdatePwaService} from "./services/update-pwa.service";
 
 @Component({
   selector: 'app-root',
@@ -8,4 +9,6 @@ import { Component, ViewEncapsulation } from '@angular/core';
 })
 export class AppComponent {
   title: string = 'spelling-bee';
+
+  constructor(private updatePWA: UpdatePwaService) {}
 }
