@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1662092900493,
+  "timestamp": 1662093135532,
   "index": "/queen-bee/index.html",
   "assetGroups": [
     {
@@ -56,7 +56,7 @@
     "/queen-bee/assets/icons/icon-72x72.png": "b3548be4eb9b5bb152be2b78ab9ee6a30bd7a894",
     "/queen-bee/assets/icons/icon-96x96.png": "f2625da94f7ac32254bc2ff6719e8c224b6c88f7",
     "/queen-bee/favicon.ico": "f64d98f5a764371fb9ac952d9e5e12d84203b12a",
-    "/queen-bee/index.html": "de01cc0b9b5782e44f6e38784b9dde68c2c7aa4c",
+    "/queen-bee/index.html": "030debd7861d799a908f95d81673d6a05584be3f",
     "/queen-bee/main.0e4c21bd4bb0638d.js": "f142ca964497a30dcbc48cb297b242fc304cdd1c",
     "/queen-bee/manifest.webmanifest": "12c4f94daae1b3496940749a9e5763e170f27a9f",
     "/queen-bee/polyfills.04c9193856fcd9dc.js": "995073ea77054d9651e6ef6374697be54af4d8f6",
