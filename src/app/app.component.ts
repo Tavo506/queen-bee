@@ -10,5 +10,5 @@ import {UpdatePwaService} from "./services/update-pwa.service";
 export class AppComponent {
   title: string = 'spelling-bee';
 
-  constructor(private updatePWA: UpdatePwaService) {}
+  constructor(private updatePWA: UpdatePwaService) { }
 }
