@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1662093135532,
+  "timestamp": 1662235819306,
   "index": "/queen-bee/index.html",
   "assetGroups": [
     {
@@ -13,11 +13,11 @@
       "urls": [
         "/queen-bee/favicon.ico",
         "/queen-bee/index.html",
-        "/queen-bee/main.0e4c21bd4bb0638d.js",
+        "/queen-bee/main.9e5c41088e092393.js",
         "/queen-bee/manifest.webmanifest",
         "/queen-bee/polyfills.04c9193856fcd9dc.js",
         "/queen-bee/runtime.fc1ea3dc2d55ef7b.js",
-        "/queen-bee/styles.8526f8fce5c1456e.css"
+        "/queen-bee/styles.f38ca419a72dfd36.css"
       ],
       "patterns": []
     },
@@ -38,7 +38,9 @@
         "/queen-bee/assets/icons/icon-384x384.png",
         "/queen-bee/assets/icons/icon-512x512.png",
         "/queen-bee/assets/icons/icon-72x72.png",
-        "/queen-bee/assets/icons/icon-96x96.png"
+        "/queen-bee/assets/icons/icon-96x96.png",
+        "/queen-bee/assets/ios-add-btn.png",
+        "/queen-bee/assets/ios-menu-btn.png"
       ],
       "patterns": []
     }
@@ -55,13 +57,15 @@
     "/queen-bee/assets/icons/icon-512x512.png": "1df2dbc54d0bb60e6ade10b887de9197c87c6dae",
     "/queen-bee/assets/icons/icon-72x72.png": "b3548be4eb9b5bb152be2b78ab9ee6a30bd7a894",
     "/queen-bee/assets/icons/icon-96x96.png": "f2625da94f7ac32254bc2ff6719e8c224b6c88f7",
+    "/queen-bee/assets/ios-add-btn.png": "b04f8aff472620d61612217ef4b2cd94f07b914b",
+    "/queen-bee/assets/ios-menu-btn.png": "85935a3142fbdca3ebd69db254792588e3c48b13",
     "/queen-bee/favicon.ico": "f64d98f5a764371fb9ac952d9e5e12d84203b12a",
-    "/queen-bee/index.html": "030debd7861d799a908f95d81673d6a05584be3f",
-    "/queen-bee/main.0e4c21bd4bb0638d.js": "f142ca964497a30dcbc48cb297b242fc304cdd1c",
+    "/queen-bee/index.html": "28d0d2253929e95c8a45bdcbbc1c8a1eacbb8918",
+    "/queen-bee/main.9e5c41088e092393.js": "64a200dbc3774ec8d802764a12948177028c97e4",
     "/queen-bee/manifest.webmanifest": "12c4f94daae1b3496940749a9e5763e170f27a9f",
     "/queen-bee/polyfills.04c9193856fcd9dc.js": "995073ea77054d9651e6ef6374697be54af4d8f6",
     "/queen-bee/runtime.fc1ea3dc2d55ef7b.js": "670b8b879b99ea483fb26218c1d5c1147c57ab16",
-    "/queen-bee/styles.8526f8fce5c1456e.css": "4ad696fc114de757a729a4e78ad45934980f1d78"
+    "/queen-bee/styles.f38ca419a72dfd36.css": "99195ed666027f2998636519c09354bf144099c4"
   },
   "navigationUrls": [
     {
