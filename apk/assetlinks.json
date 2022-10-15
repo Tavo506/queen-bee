@@ -1,0 +1,6 @@
+[{
+        "relation": ["delegate_permission/common.handle_all_urls"],
+        "target" : { "namespace": "android_app", "package_name": "io.github.tavo506.twa",
+                     "sha256_cert_fingerprints": ["E7:06:AC:83:39:93:9B:9B:4B:B2:64:72:3F:01:76:5C:68:3E:B2:23:F3:3A:C6:44:4D:D0:50:F6:28:57:F3:F3"] }
+      }
+]
